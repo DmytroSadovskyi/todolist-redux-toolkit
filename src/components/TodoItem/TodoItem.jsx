@@ -3,7 +3,7 @@ import css from './TodoItem.module.css';
 // Імпортуємо хук
 import { useDispatch } from 'react-redux';
 // Імпортуємо генератор екшену
-import { deleteTodo, toggleCompleted } from 'redux/actions';
+import { deleteTodo, toggleCompleted } from 'redux/todosSlice';
 
 export const TodoItem = ({ task }) => {
   // Отримуємо посилання на функцію відправки екшенів

@@ -3,7 +3,7 @@ import css from './TodoForm.module.css';
 // Імпортуємо хук
 import { useDispatch } from 'react-redux';
 // Імпортуємо генератор екшену
-import { addTodo } from 'redux/actions';
+import { addTodo } from 'redux/todosSlice';
 
 export const TodoForm = () => {
   // Отримуємо посилання на функцію відправки екшенів

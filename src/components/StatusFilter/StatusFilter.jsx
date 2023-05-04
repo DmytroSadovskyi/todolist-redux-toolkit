@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 // Імпортуємо об'єкт значень фільтра
 import { statusFilters } from 'redux/constants';
 // Імпортуємо генератор екшену
-import { setStatusFilter } from 'redux/actions';
+import { setStatusFilter } from 'redux/filtersSlice';
 
 export const StatusFilter = () => {
   // Отримуємо посилання на функцію відправки екшенів
